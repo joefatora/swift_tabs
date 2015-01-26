@@ -19,6 +19,10 @@ class FirstViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func loginViewShowingLoggedOutUser(loginView : FBLoginView!) {
+        println("User Logged Out")
+    }
 
 
 }
